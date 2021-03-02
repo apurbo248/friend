@@ -1,25 +1,26 @@
 .header{
     background-color: black;
-    display:flex;
+    display: flex;
     justify-content: center;
     gap: 100px;
-    color: white;
+    color: hsl(120, 94%, 49%);
+    align-items: center;
    
 }
 .logo{
-    margin-right: 300px;
+   cursor: pointer;
 }
-h1{
-    color: rgb(4, 252, 4);
-    text-align: center;
-    padding-top:7px; 
+.a ul{
+    margin-top:10px
 }
-h4{
-    border-radius: 5px;
-    background-color:hsl(120, 94%, 49%);
-    width: 100%;
-    height: 40px;
-    text-align: center;
-    color: black;
-    
+.a ul li{
+    list-style: none;
+    display: inline; 
+     
+}
+.a ul li a{
+    font-size:20px;
+    color:hsl(0, 0%, 100%) ;
+    margin-right: 20px;
+ 
 }

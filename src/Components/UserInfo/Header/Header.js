@@ -5,21 +5,16 @@ const Header = () => {
     return (
         <div className="header">
             <div className="logo">
-                <h1>friendZONE</h1>
+                <h3>friendZONE</h3>
             </div>
-{/*           
-                <div className="usercount">
-                    <h3>Seleted User</h3>
-                    <h4>0000</h4>
-                </div>
-                <div className="Salary">
-                    <h3>Users Salary</h3>
-                    <h4>0000</h4>
-                </div> */}
+            <div className="a">
+                <ul>
+                    <li><a href="\friendlist">Friendlist</a></li>
+                    <li> <a href="\about">About</a></li>
+                    <li> <a href="\contact">Contact</a></li>
+                </ul>
             </div>
-    
-       
-
+            </div>
     );
 };
 
